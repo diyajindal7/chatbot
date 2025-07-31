@@ -1,0 +1,24 @@
+# Streamlit App Requirements for FREE RAG System
+# Core dependencies
+streamlit==1.28.0
+python-dotenv==1.0.1
+
+# LangChain and RAG components
+langchain==0.2.2
+langchain-community==0.2.3
+langchain-huggingface==0.3.1
+
+# Document processing
+unstructured==0.14.4
+chromadb==0.5.0
+pypdf==4.0.1
+
+# Free embeddings and models
+sentence-transformers==5.0.0
+huggingface-hub==0.34.1
+
+# Utilities
+requests==2.31.0
+tiktoken==0.7.0
+
+# Install markdown dependencies with: pip install "unstructured[md]" 
